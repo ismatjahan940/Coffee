@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+ul {list-style: none; }
+
+a { 
+    text-decoration: none;
+    
+}
+.coffeehome {
+    background: linear-gradient(#4B2C24, #2B1712);
+}
+nav{
+    padding: 26px 0 ;
+}
+.main_menu {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+
+}
+.main_menu .logo {
+    width: 107px;
+}
+.main_menu .logo img {
+    width: 100% ;
+}
+.main_menu .menu ul {
+    display: flex;
+    gap: 72px;
+}
+.main_menu .menu ul li a {
+    color: white;
+}
